@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    list-style: none;
+    color: var(--text-color);
+    --body-bg-color: rgb(247, 246, 238);
+    --banner-bg-color: rgb(0, 103, 71);
+    --text-color: rgb(70, 70, 70);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: var(--banner-bg-color);
+}
+
+header img {
+    position: absolute;
+    width: 150px;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 50px;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    line-height: 1.5rem;
+}
+
+main {
+    position: relative;
+    left: 50%;
+    width: 1300px;
+    height: auto;
+    transform: translate(-50%, 0);
+}
+
+section {
+    position: relative;
+    font-size: 1.2rem;
+    overflow: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+}
+
+#title {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+h1 {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 50px 0 50px 0;
+}
+
+#book-info {
+    line-height: 1.9rem;
+}
+
+.left-element {
+    float: left;
+    margin-right: 50px;
+}
+
+#js-logo {
+    width: 180px;
+}
+
+#vr {
+    border-left: 1px solid rgb(170, 170, 170);
+    height: 180px;
+}
+
+.policies-and-procedures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: justify;
+    gap: 2rem;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 65px;
+    background-color: var(--banner-bg-color);
+}
+
+footer p {
+    position: relative;
+    top: 50%;
+    color: rgb(211, 211, 211);
+    text-align: center;
+    letter-spacing: .2rem;
+    transform: translate(0, -50%);
+    font-size: .7rem;
+}
